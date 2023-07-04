@@ -1,0 +1,253 @@
+@media (max-width:1200px)
+    .menu
+        .menu_link
+            font-size: 13px
+        .menu_item
+            padding-right: 19px
+    .promo
+        .promo_header
+            font-size: 50px
+    .features
+        .features_block
+            align-items: flex-start
+        .features_descr
+            width: 300px    
+
+
+
+// 991================================================================ 
+
+@media (max-width: 991px)
+    .menu
+        padding: 13px 21px
+        .menu_link
+            font-size: 10px
+        .menu_item
+            padding-right: 18px
+    .subheader
+        .subheader_logo
+            img
+                width: 100%
+        .subheader_official
+            font-size: 11px
+        .subheader_phone
+            font-size: 19px
+        .subheader_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 30px
+    .features
+        .features_block
+            flex-direction: column
+            align-items: center
+        .img_block
+            margin-right: 0
+        .features_descr
+            margin-top: 15px
+            width: 300px 
+    .mobile
+        .mobile_item_subtitle
+            font-size: 17px
+        .mobile_item
+            width: 217px
+            height: 240px   
+
+
+
+
+// 767==============================================================
+
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+    .menu_active
+        left: 0
+        .menu_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        .menu_link
+            font-size: 20px
+    .nav
+        position: relative
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 3px
+            width: 100%
+            margin-bottom: 5px
+            background-color: #fff
+            transition: 0.5s all
+    .hamburger_active
+        span
+            margin-bottom: -3px
+            &:nth-child(1)
+                transform: translateY(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg)
+    .subheader
+        .xs-hidden
+            display: none
+        .xs-visible
+            display: block
+        .subheader_phone
+            display: block
+            margin-top: 10px
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            color: #fff
+            text-align: center
+        .subheader_btn
+            display: block
+            width: 200px    
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        .promo_header
+            line-height: 45px
+    .car
+        min-height: 800px
+        .car_img
+            margin-top: 70px
+            img
+               width: 550px  
+    .require
+        padding-top: 0
+    .mobile
+        .mobile_item
+            width: 360px
+            height: 320px
+        .mobile_item_subtitle
+            font-size: 26px
+
+// 575====================================================================
+
+@media (max-width: 575px)
+    .nav
+        height: 30px
+    .subheader
+        height: 60px
+        .subheader_official
+            display: none
+        .subheader_logo
+            margin-top: 16px    
+        .subheader_phone
+            color: #fff
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            margin-top: 11px
+        .subheader_btn
+            width: 110px    
+            height: 22px
+            font-size: 10px
+            margin-top: 6px
+    .promo
+        min-height: 400px  
+        padding: 93px 0 35px 0 
+        .promo_descr
+            display: none
+        .promo_header
+            margin-top: 55px
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        .promo_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+        .promo_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .menu
+        .menu_link
+            font-size: 15px
+        // width: 85%
+    .features
+        padding: 22px 0 36px 0
+        .features_block
+            margin-top: 26px
+        .img_block
+            width: 100px
+            height: 100px
+        .features_descr
+            width: 100%
+            margin-top: 27px
+            text-align: center
+
+    
+    .title
+        font-size: 16px
+        margin-top: 15px
+        line-height: 16px
+    
+    .car
+        background: #000
+        min-height: 393px   
+        .label_text
+            display: none
+        .subtitle
+            display: none
+        .car_img
+            margin: 0
+            top: 75px
+            img
+                width: 300px
+                height: 210px
+        .car_text
+            color: #fff
+            bottom: 21px    
+            font-size: 17px
+    
+    .map
+        min-height: 440px  
+        padding-top: 1px
+        .label
+            margin-top: 26px
+        .label_text
+            margin-top: 16px
+            font-size: 17px
+        .subtitle
+            margin-top: 11px
+            font-size: 14px
+        .map_descr
+            bottom: 30px
+            font-size: 15px
+    .mobile
+        .mobile_item
+            width: 300px
+            height: 265px
+        .mobile_item_subtitle
+            font-size: 26px
+         
+                    
+                    
